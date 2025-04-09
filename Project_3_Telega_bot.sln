@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project_3_Telega_bot", "Project_3_Telega_bot\Project_3_Telega_bot.csproj", "{899DDA2E-6F85-4EC6-B939-EBB18136B432}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{899DDA2E-6F85-4EC6-B939-EBB18136B432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899DDA2E-6F85-4EC6-B939-EBB18136B432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899DDA2E-6F85-4EC6-B939-EBB18136B432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899DDA2E-6F85-4EC6-B939-EBB18136B432}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AAAE3B7-3FBA-41DC-A21D-984904BF77C9}
+	EndGlobalSection
+EndGlobal
