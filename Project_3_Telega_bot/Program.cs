@@ -47,8 +47,8 @@ namespace Project_3_Telega_bot
                     }
                     WeatherResponse weatherResponse = JsonConvert.DeserializeObject<WeatherResponse>(response);
                     await client.SendMessage(message.Chat.Id, $"Temperature in {weatherResponse.Name} is {weatherResponse.Main.Temp} °C", cancellationToken: token);
-                    await client.SendMessage(message.Chat.Id, "Choose next.", cancellationToken: token);
                     await client.SendPhoto(message.Chat.Id, photo: "https://thegouldstandard.com/wp-content/uploads/2018/12/76709-640x360-houses-of-parliament-and-london-eye-on-thames-from-above-640.jpg", cancellationToken: token);
+                    await client.SendMessage(message.Chat.Id, "Choose next.", cancellationToken: token);
                     return;
                 }
                 if (message.Text.Contains("Kiev"))
@@ -63,8 +63,8 @@ namespace Project_3_Telega_bot
                     }
                     WeatherResponse weatherResponse = JsonConvert.DeserializeObject<WeatherResponse>(response);
                     await client.SendMessage(message.Chat.Id, $"Temperature in {weatherResponse.Name} is {weatherResponse.Main.Temp} °C", cancellationToken: token);
-                    await client.SendMessage(message.Chat.Id, "Choose next.", cancellationToken: token);
                     await client.SendPhoto(message.Chat.Id, photo: "https://hubs.ua/wp-content/uploads/2020/10/kiev-header-640x360.jpg", cancellationToken: token);
+                    await client.SendMessage(message.Chat.Id, "Choose next.", cancellationToken: token);
                     return;
                 }
                 if (message.Text.Contains("Moscow"))
@@ -79,8 +79,8 @@ namespace Project_3_Telega_bot
                     }
                     WeatherResponse weatherResponse = JsonConvert.DeserializeObject<WeatherResponse>(response);
                     await client.SendMessage(message.Chat.Id, $"Temperature in {weatherResponse.Name} is {weatherResponse.Main.Temp} °C", cancellationToken: token);
-                    await client.SendMessage(message.Chat.Id, "Choose next.", cancellationToken: token);
                     await client.SendPhoto(message.Chat.Id, photo: "https://cdn2.picryl.com/photo/2023/06/07/saint-basils-cathedral-and-the-red-square-6a35c2-640.jpg", cancellationToken: token);
+                    await client.SendMessage(message.Chat.Id, "Choose next.", cancellationToken: token);
                     return;
                 }
                 if (message.Text.Contains("Washington"))
@@ -95,8 +95,8 @@ namespace Project_3_Telega_bot
                     }
                     WeatherResponse weatherResponse = JsonConvert.DeserializeObject<WeatherResponse>(response);
                     await client.SendMessage(message.Chat.Id, $"Temperature in {weatherResponse.Name} is {weatherResponse.Main.Temp} °C", cancellationToken: token);
-                    await client.SendMessage(message.Chat.Id, "Choose next.", cancellationToken: token);
                     await client.SendPhoto(message.Chat.Id, photo: "https://ichef.bbci.co.uk/ace/ws/464/amz/worldservice/live/assets/images/2013/10/08/131008223605_sp_us_caiptol_washington_464x261_afp.jpg.webp", cancellationToken: token);
+                    await client.SendMessage(message.Chat.Id, "Choose next.", cancellationToken: token);
                     return;
                 }
                 if (message.Text.Contains("Paris"))
@@ -111,8 +111,8 @@ namespace Project_3_Telega_bot
                     }
                     WeatherResponse weatherResponse = JsonConvert.DeserializeObject<WeatherResponse>(response);
                     await client.SendMessage(message.Chat.Id, $"Temperature in {weatherResponse.Name} is {weatherResponse.Main.Temp} °C", cancellationToken: token);
-                    await client.SendMessage(message.Chat.Id, "Choose next.", cancellationToken: token);
                     await client.SendPhoto(message.Chat.Id, photo: "https://www.visitlondon.com/-/media/images/london/visit/things-to-do/sightseeing/sightseeing-tours/best-paris-tours/sunset-in-paris-640x360.jpg?h=360&w=640&rev=f9f8bf07792b42278ad1249332cfed5b&hash=99B5060D3F945341846746329BB2AB50", cancellationToken: token);
+                    await client.SendMessage(message.Chat.Id, "Choose next.", cancellationToken: token);
                     return;
                 }
                 if (message.Text.Contains("Mexico"))
@@ -127,8 +127,8 @@ namespace Project_3_Telega_bot
                     }
                     WeatherResponse weatherResponse = JsonConvert.DeserializeObject<WeatherResponse>(response);
                     await client.SendMessage(message.Chat.Id, $"Temperature in {weatherResponse.Name} is {weatherResponse.Main.Temp} °C", cancellationToken: token);
-                    await client.SendMessage(message.Chat.Id, "Choose next.", cancellationToken: token);
                     await client.SendPhoto(message.Chat.Id, photo: "https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2012%2F01%2Fmexico-by-schlaeger.jpg&signature=8cce7f6d97968f0d8b2bd7c7c9d4a5cf", cancellationToken: token);
+                    await client.SendMessage(message.Chat.Id, "Choose next.", cancellationToken: token);
                     return;
                 }
                 if (message.Text.Contains("Madrid"))
@@ -143,8 +143,8 @@ namespace Project_3_Telega_bot
                     }
                     WeatherResponse weatherResponse = JsonConvert.DeserializeObject<WeatherResponse>(response);
                     await client.SendMessage(message.Chat.Id, $"Temperature in {weatherResponse.Name} is {weatherResponse.Main.Temp} °C", cancellationToken: token);
-                    await client.SendMessage(message.Chat.Id, "Choose next.", cancellationToken: token);
                     await client.SendPhoto(message.Chat.Id, photo: "https://upload.wikimedia.org/wikipedia/commons/2/23/One_wing%3F_%2818125407702%29.jpg", cancellationToken: token);
+                    await client.SendMessage(message.Chat.Id, "Choose next.", cancellationToken: token);
                     return;
                 }
                 if (message.Text.Contains("Rome"))
@@ -159,8 +159,8 @@ namespace Project_3_Telega_bot
                     }
                     WeatherResponse weatherResponse = JsonConvert.DeserializeObject<WeatherResponse>(response);
                     await client.SendMessage(message.Chat.Id, $"Temperature in {weatherResponse.Name} is {weatherResponse.Main.Temp} °C", cancellationToken: token);
-                    await client.SendMessage(message.Chat.Id, "Choose next.", cancellationToken: token);
                     await client.SendPhoto(message.Chat.Id, photo: "https://archaeology-travel.com/cdn-cgi/image/width=600,quality=90,format=auto,onerror=redirect,metadata=none/wp-content/uploads/2022/05/elementor/thumbs/roman-sites-rome-podjou9oo3uh6oasb77p09y7mzk5f1vwg9mg3g87ck.jpg", cancellationToken: token);
+                    await client.SendMessage(message.Chat.Id, "Choose next.", cancellationToken: token);
                     return;
                 }
                 if (message.Text.Contains("Berlin"))
@@ -175,8 +175,8 @@ namespace Project_3_Telega_bot
                     }
                     WeatherResponse weatherResponse = JsonConvert.DeserializeObject<WeatherResponse>(response);
                     await client.SendMessage(message.Chat.Id, $"Temperature in {weatherResponse.Name} is {weatherResponse.Main.Temp} °C", cancellationToken: token);
-                    await client.SendMessage(message.Chat.Id, "Choose next.", cancellationToken: token);
                     await client.SendPhoto(message.Chat.Id, photo: "https://cdn.pixabay.com/photo/2012/07/01/08/35/architecture-51058_960_720.jpg", cancellationToken: token);
+                    await client.SendMessage(message.Chat.Id, "Choose next.", cancellationToken: token);
                     return;
                 }
                 if (message.Text.Contains("Petersburg"))
@@ -191,8 +191,8 @@ namespace Project_3_Telega_bot
                     }
                     WeatherResponse weatherResponse = JsonConvert.DeserializeObject<WeatherResponse>(response);
                     await client.SendMessage(message.Chat.Id, $"Temperature in {weatherResponse.Name} is {weatherResponse.Main.Temp} °C", cancellationToken: token);
-                    await client.SendMessage(message.Chat.Id, "Choose next.", cancellationToken: token);
                     await client.SendPhoto(message.Chat.Id, photo: "https://ichef.bbci.co.uk/images/ic/640x360/p02fpycc.jpg", cancellationToken: token);
+                    await client.SendMessage(message.Chat.Id, "Choose next.", cancellationToken: token);
                     return;
                 }
             }
